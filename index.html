@@ -3,195 +3,127 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Alfalah Employment Services</title>
-
+<title>Alfalah Employment Services | الفلاح ایمپلائمنٹ سروسز</title>
 <style>
-body {font-family: Arial; margin:0; background:#f4f6f9;}
-
-header {
-background:linear-gradient(to right,#0d3b66,#1d70b8);
-color:white;
-padding:40px;
-text-align:center;
-}
-
-section {
-background:white;
-margin:15px;
-padding:20px;
-border-radius:10px;
-}
-
+body {font-family: Arial, sans-serif; margin:0; background:#f4f6f9; line-height:1.6;}
+header {background:linear-gradient(to right,#0d3b66,#1d70b8); color:white; padding:40px; text-align:center;}
+header h1 {margin-bottom:10px;}
+section {background:white; margin:15px; padding:20px; border-radius:10px;}
 h2 {color:#0d3b66;}
-
-.grid {
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-gap:15px;
-}
-
-.card {
-background:#fff;
-border-radius:10px;
-overflow:hidden;
-box-shadow:0 0 8px rgba(0,0,0,0.1);
-text-align:center;
-}
-
-.card img {
-width:100%;
-height:120px;
-object-fit:cover;
-}
-
-.card p {
-padding:10px;
-font-weight:bold;
-}
-
-input, select {
-width:100%;
-padding:10px;
-margin:8px 0;
-}
-
-button {
-background:green;
-color:white;
-padding:10px;
-border:none;
-border-radius:5px;
-width:100%;
-}
-
-.whatsapp {
-position:fixed;
-bottom:20px;
-right:20px;
-background:green;
-color:white;
-padding:15px;
-border-radius:50%;
-text-decoration:none;
-}
-
-.payment-box {
-background:#fff3cd;
-padding:10px;
-border-radius:8px;
-}
+.staff-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px;}
+.staff-card {background:#fff; padding:10px; border-radius:8px; text-align:center; box-shadow:0 0 5px rgba(0,0,0,0.1);}
+.staff-card img {width:100%; border-radius:8px;}
+input, select {width:100%; padding:10px; margin:8px 0; border:1px solid #ccc; border-radius:5px;}
+button {background:green; color:white; padding:10px; border:none; border-radius:5px; width:100%; cursor:pointer;}
+button:hover {opacity:0.9;}
+.whatsapp {position:fixed; bottom:20px; right:20px; background:green; color:white; padding:15px; border-radius:50%; text-decoration:none; font-size:20px;}
+.payment-box {background:#fff3cd; padding:10px; border-radius:8px; margin-bottom:10px; font-size:14px;}
+.urdu {font-family:'Noto Nastaliq Urdu', serif; direction:rtl; text-align:right;}
 </style>
 </head>
-
 <body>
 
 <header>
 <h1>Alfalah Employment Services</h1>
-<p>
-We provide highly trained, verified, and reliable male & female staff for homes, offices, factories, and companies across Pakistan.
-</p>
+<p class="urdu">ہم گھروں، دفاتر، فیکٹریوں اور کمپنیوں کے لیے تربیت یافتہ اور تصدیق شدہ مرد و خواتین اسٹاف فراہم کرتے ہیں۔ ہمارا مقصد پیشہ ورانہ اور معیاری خدمات کے ساتھ بھروسے مند مین پاور حل فراہم کرنا ہے۔</p>
+<p>We provide highly trained, verified, and reliable male & female staff for homes, offices, factories, and companies across Pakistan.</p>
 </header>
 
 <section>
-<h2>Our Professional Staff</h2>
+<h2>Our Services | ہماری خدمات</h2>
+<p class="urdu">ہم پاکستان بھر میں تمام اقسام کے ہنرمند اور غیر ہنرمند اسٹاف فراہم کرتے ہیں، بشمول گھریلو عملہ، دفتر کا عملہ، فیکٹری ورکرز، تعمیراتی مزدور، سکیورٹی پرسنل، ڈرائیورز، اور مال / شاپ اسٹاف۔</p>
+<p>We provide all kinds of skilled and unskilled staff across Pakistan including domestic staff, office staff, factory workers, construction labor, security personnel, drivers, and mall/shop staff.</p>
+</section>
 
-<div class="grid">
-
-<div class="card"><img src="https://source.unsplash.com/300x200/?maid"><p>House Maid</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?babysitter"><p>Baby Sitter</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?nanny"><p>Nanny</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?patient-care"><p>Patient Attendant</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?driver"><p>Driver</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?security-guard"><p>Security Guard</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?office"><p>Office Staff</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?factory"><p>Factory Worker</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?chef"><p>Chef</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?cleaner"><p>Cleaner</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?electrician"><p>Electrician</p></div>
-<div class="card"><img src="https://source.unsplash.com/300x200/?construction"><p>Construction Worker</p></div>
-
+<section>
+<h2>Staff Categories | اسٹاف کی قسمیں</h2>
+<div class="staff-grid">
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>House Maid | ہاؤس میڈ</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Driver | ڈرائیور</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Security Guard | سیکیورٹی گارڈ</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Office Staff | دفتر کا عملہ</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Factory Worker | فیکٹری ورکر</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Cook / Chef | باورچی</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Cleaner | کلینر</p></div>
+<div class="staff-card"><img src="https://via.placeholder.com/150"><p>Electrician | الیکٹریشن</p></div>
 </div>
 </section>
 
 <section>
-<h2>All Staff Categories</h2>
-<p>
-Domestic, Transport, Security, Office, Factory, Construction and all general staff available.
-</p>
-</section>
-
-<section>
-<h2>Staff Registration (Fee Rs. 500)</h2>
-
+<h2>Staff Registration (Fee Rs. 500) | اسٹاف رجسٹریشن (فیس ۵۰۰ روپے)</h2>
 <div class="payment-box">
-<p><b>Easypaisa:</b> 030000876150</p>
-<p><b>Bank:</b> Alfalah Bank - 123456789</p>
+<p class="urdu"><b>ادائیگی کی تفصیلات:</b> ۵۰۰ روپے</p>
+<p><b>Payment Required:</b> 500 PKR</p>
+<p><b>Easypaisa / ایزی پیسہ:</b> 030000876150</p>
+<p><b>Bank / بینک:</b> Alfalah Bank - 123456789</p>
+<p>After payment, enter your transaction ID below.</p>
+<p class="urdu">ادائیگی کے بعد نیچے اپنا ٹرانزیکشن آئی ڈی درج کریں۔</p>
 </div>
 
 <form action="https://formsubmit.co/wwwalfalahemploymentservices@gmail.com" method="POST">
+<input type="text" name="Name" placeholder="Full Name | پورا نام" required>
+<input type="text" name="CNIC" placeholder="CNIC Number | شناختی کارڈ نمبر" required>
+<input type="text" name="Phone" placeholder="Phone Number | فون نمبر" required>
 
-<input type="text" name="Name" placeholder="Full Name" required>
-<input type="text" name="CNIC" placeholder="CNIC Number" required>
-<input type="text" name="Phone" placeholder="Phone Number" required>
-
-<select name="Job Category" required>
-<option>Select Category</option>
-<option>House Maid</option>
-<option>Driver</option>
-<option>Security Guard</option>
-<option>Office Staff</option>
-<option>Factory Worker</option>
-<option>Cook / Chef</option>
+<select name="Job Category">
+<option>House Maid | ہاؤس میڈ</option>
+<option>Driver | ڈرائیور</option>
+<option>Security Guard | سیکیورٹی گارڈ</option>
+<option>Office Staff | دفتر کا عملہ</option>
+<option>Factory Worker | فیکٹری ورکر</option>
+<option>Cook / Chef | باورچی</option>
+<option>Cleaner | کلینر</option>
+<option>Electrician | الیکٹریشن</option>
 </select>
 
-<input type="text" name="Transaction ID" placeholder="Transaction ID" required>
-
-<button type="submit">Submit</button>
-
+<input type="text" name="Transaction ID" placeholder="Payment Transaction ID | ٹرانزیکشن آئی ڈی" required>
+<button type="submit">Submit Staff Form | فارم جمع کریں</button>
 </form>
 </section>
 
 <section>
-<h2>Client Request Form</h2>
-
+<h2>Client Request Form | کلائنٹ درخواست فارم</h2>
 <form action="https://formsubmit.co/wwwalfalahemploymentservices@gmail.com" method="POST">
+<input type="text" name="Client Name" placeholder="Your Name | نام" required>
+<input type="text" name="Phone" placeholder="Phone Number | فون نمبر" required>
+<input type="text" name="Address" placeholder="Address | پتہ" required>
 
-<input type="text" name="Name" placeholder="Your Name" required>
-<input type="text" name="Phone" placeholder="Phone Number" required>
-<input type="text" name="Address" placeholder="Address" required>
-
-<select name="Staff Required">
-<option>House Maid</option>
-<option>Driver</option>
-<option>Security Guard</option>
+<select name="Required Staff">
+<option>House Maid | ہاؤس میڈ</option>
+<option>Driver | ڈرائیور</option>
+<option>Security Guard | سیکیورٹی گارڈ</option>
+<option>Office Staff | دفتر کا عملہ</option>
+<option>Factory Worker | فیکٹری ورکر</option>
+<option>Cook / Chef | باورچی</option>
+<option>Cleaner | کلینر</option>
+<option>Electrician | الیکٹریشن</option>
 </select>
 
-<button type="submit">Request Staff</button>
-
+<button type="submit">Request Staff | اسٹاف درخواست کریں</button>
 </form>
 </section>
 
 <section>
-<h2>Contact</h2>
+<h2>Contact Us | ہم سے رابطہ کریں</h2>
+<p class="urdu"><b>Managing Director:</b> محمد کامران (03009827998)</p>
+<p><b>Managing Director:</b> Muhammad Kamran (03009827998)</p>
 
-<p><b>Managing Director:</b> Muhammad Kamran</p>
-<p>03009827998</p>
+<p class="urdu"><b>Manager:</b> شاہ میر حسن (03479555789)</p>
+<p><b>Manager:</b> Shah Meer Hassan (03479555789)</p>
 
-<p><b>Manager:</b> Shah Meer Hassan</p>
-<p>03479555789</p>
+<p class="urdu"><b>Head Office:</b> 2nd Floor, Defence Mall, S9, DHA Phase 2, Karachi | ہیڈ آفس کراچی</p>
+<p><b>Head Office:</b> 2nd Floor, Defence Mall, S9, DHA Phase 2, Karachi</p>
 
-<p><b>Head Office:</b> Karachi</p>
-<p><b>Main Office:</b> Office 5, Near Rabi Center, Sadar Rawalpindi</p>
+<p class="urdu"><b>Main Office:</b> Office #406, 4th Floor, Makkah Tower, Adamjee Road, Saddar, Rawalpindi | مین آفس راولپنڈی</p>
+<p><b>Main Office:</b> Office #406, 4th Floor, Makkah Tower, Adamjee Road, Saddar, Rawalpindi, Punjab</p>
 
 <p><b>Email:</b> wwwalfalahemploymentservices@gmail.com</p>
 
-<a href="https://wa.me/923009827998">
-<button>WhatsApp</button>
+<a href="https://wa.me/923009827998?text=I want staff details" target="_blank">
+<button>Chat on WhatsApp | واٹس ایپ چیٹ کریں</button>
 </a>
-
 </section>
 
 <a class="whatsapp" href="https://wa.me/923009827998">💬</a>
-
 </body>
 </html>
